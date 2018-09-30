@@ -9,7 +9,7 @@
 ## Debug
 
 ```
-docker run -i -t -p 8080:80 apacher /bin/bash
+docker exec -i -t -p 8080:80 apacher /bin/bash
 apachectl start
 ```
 
